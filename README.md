@@ -4,6 +4,11 @@ This application helps to detect any kind of small smears on camera lens.
 This application is useful in Street Map designing.
 
 Flowchart for Algorithm procedure. 
+setting:
+
+    {
+        flowChart : true
+    }
 
 
 ```flow
