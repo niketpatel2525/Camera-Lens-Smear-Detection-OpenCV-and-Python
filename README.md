@@ -11,11 +11,5 @@ st=>start: Input Images
 op=>operation: Convert all images to same size (width & height)
 op=>operation: Calculate mean of all images
 op=>operation: Convert to grayscale and use Threshold image using openCV
-cond=>condition: is Mask satisfy min-max smear category?
-op=>operation: apply mask to the images.
 e=>end: Final Result
-
-st->op->cond
-cond(yes)->op
-cond(no)->e
 ```
